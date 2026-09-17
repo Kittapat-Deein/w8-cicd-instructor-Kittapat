@@ -63,15 +63,15 @@ git push origin main
 
 | Evidence | URL | Commit SHA |
 |----------|-----|------------|
-| First green run | | |
-| Intentional red run | | |
-| Recovery green run | | |
+| First green run | https://github.com/thammarat-ai/w8-cicd-instructor-demo/actions/runs/35240618446 | `527295e` |
+| Intentional red run | https://github.com/thammarat-ai/w8-cicd-instructor-demo/actions/runs/35241013912 | `6cc79b8` |
+| Recovery green run | https://github.com/thammarat-ai/w8-cicd-instructor-demo/actions/runs/35241258646 | `7c436f2` |
 
 ## Demo Checklist
 
-- [ ] Green run เปิดได้
-- [ ] Red run และ assertion error ยังอยู่
-- [ ] Recovery green run เปิดได้
-- [ ] ไม่มี credential หรือ `.env` ใน repository
-- [ ] เปิด URL ทั้งหมดใน incognito window ได้
+- [x] Green run เปิดได้
+- [x] Red run และ assertion error ยังอยู่
+- [x] Recovery green run เปิดได้
+- [x] ไม่มี credential หรือ `.env` ใน repository
+- [x] เปิด URL ทั้งหมดใน incognito window ได้
 
